@@ -18,7 +18,6 @@ Ce projet présente mes compétences, mes projets, mon parcours, et comment me c
 
 - ⚛️ React.js
 - 🎨 CSS / SCSS / Tailwind (selon ton cas)
-- 🌙 Mode sombre intégré
 - 📱 Design responsive (mobile & desktop)
 - 📁 Déploiement via GitHub Pages
 
@@ -35,15 +34,3 @@ Ce projet présente mes compétences, mes projets, mon parcours, et comment me c
 ---
 
 ## 🖼️ Structure des dossiers
-
-```bash
-.
-├── public/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   └── assets/
-├── App.js
-├── index.js
-└── README.md
-```
