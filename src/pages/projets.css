@@ -1,0 +1,106 @@
+.projets-section {
+  padding: 5rem 2rem;
+  background-color: #007bff;
+  height:650px;
+  text-align: center;
+}
+
+.projets-title {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #fff;
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: all 0.4s ease-in-out;
+}
+
+.projets-subtitle {
+  font-size: 1.1rem;
+  color:black;
+  margin-bottom: 3rem;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: all 0.4s ease-in-out;
+}
+
+.fade-in-top {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.projets-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.projet-card {
+  background: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 320px;
+  text-align: left;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  transition: all 0.4s ease;  
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transform: translateY(60px);
+}
+
+.projet-card.slide-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.projet-card:hover {
+  transform: translateY(-15px);
+  box-shadow:-18px -12px 0px 1px #0d1e4cb3;
+}
+
+.icon-wrapper {
+  margin-bottom: 1rem;
+}
+
+.projet-card h3 {
+  font-size: 1.4rem;
+  color: #1e293b;
+  margin-bottom: 0.8rem;
+}
+
+.projet-card p {
+  font-size: 1rem;
+  color: #475569;
+  margin-bottom: 1.5rem;
+}
+
+.btn-projet {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background: #0ea5e9;
+  color: white;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn-projet:hover {
+  background: #0284c7;
+}
+
+/* Animation delay */
+.delay-0 {
+  transition-delay: 0.2s;
+}
+.delay-1 {
+  transition-delay: 0.4s;
+}
+.delay-2 {
+  transition-delay: 0.6s;
+}
